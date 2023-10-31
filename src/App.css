@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.container{
+  height: 200px;
+  width: 700px;
+  background-color: #94df44;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: auto;
+}
+#passinput{
+  width: 70%;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  outline: none;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+button{
+  cursor: pointer;
+  padding: 10px ;
+  font-size: 17px;
+  color: #fff;
+  margin: 0 5px;
+  border: none;
+  background-color: rgb(59, 59, 220);
+  border-radius: 5px;
+} 
+.tools{
+  display: flex;
+  width: 70%;
+  margin:10px auto;
+font-size: 20px;
+  justify-content: space-around;
+
+}
